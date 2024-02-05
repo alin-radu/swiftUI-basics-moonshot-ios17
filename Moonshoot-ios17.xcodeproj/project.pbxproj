@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		18EA65782B70CC7200806CAD /* Moonshoot_ios17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65772B70CC7200806CAD /* Moonshoot_ios17App.swift */; };
-		18EA657A2B70CC7200806CAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65792B70CC7200806CAD /* ContentView.swift */; };
 		18EA657C2B70CC7300806CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EA657B2B70CC7300806CAD /* Assets.xcassets */; };
 		18EA657F2B70CC7300806CAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EA657E2B70CC7300806CAD /* Preview Assets.xcassets */; };
+		18EA65862B70CD2500806CAD /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EA65852B70CD2500806CAD /* astronauts.json */; };
+		18EA65882B70CD2F00806CAD /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EA65872B70CD2F00806CAD /* missions.json */; };
+		18EA65952B70CDAE00806CAD /* ScrollableGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65892B70CDAE00806CAD /* ScrollableGrid.swift */; };
+		18EA65962B70CDAE00806CAD /* ResizingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA658A2B70CDAE00806CAD /* ResizingImages.swift */; };
+		18EA65972B70CDAE00806CAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA658B2B70CDAE00806CAD /* ContentView.swift */; };
+		18EA65982B70CDAE00806CAD /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA658C2B70CDAE00806CAD /* AstronautView.swift */; };
+		18EA65992B70CDAE00806CAD /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA658D2B70CDAE00806CAD /* Color-Theme.swift */; };
+		18EA659A2B70CDAE00806CAD /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA658E2B70CDAE00806CAD /* Mission.swift */; };
+		18EA659B2B70CDAE00806CAD /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA658F2B70CDAE00806CAD /* Astronaut.swift */; };
+		18EA659C2B70CDAE00806CAD /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65902B70CDAE00806CAD /* MissionView.swift */; };
+		18EA659D2B70CDAE00806CAD /* NavigationLInkBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65912B70CDAE00806CAD /* NavigationLInkBasics.swift */; };
+		18EA659E2B70CDAE00806CAD /* CodableHierarchical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65922B70CDAE00806CAD /* CodableHierarchical.swift */; };
+		18EA659F2B70CDAE00806CAD /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65932B70CDAE00806CAD /* Bundle-Decodable.swift */; };
+		18EA65A02B70CDAE00806CAD /* ScrollViewBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65942B70CDAE00806CAD /* ScrollViewBasics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18EA65742B70CC7200806CAD /* Moonshoot-ios17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moonshoot-ios17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EA65772B70CC7200806CAD /* Moonshoot_ios17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moonshoot_ios17App.swift; sourceTree = "<group>"; };
-		18EA65792B70CC7200806CAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18EA657B2B70CC7300806CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EA657E2B70CC7300806CAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18EA65852B70CD2500806CAD /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		18EA65872B70CD2F00806CAD /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		18EA65892B70CDAE00806CAD /* ScrollableGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGrid.swift; sourceTree = "<group>"; };
+		18EA658A2B70CDAE00806CAD /* ResizingImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizingImages.swift; sourceTree = "<group>"; };
+		18EA658B2B70CDAE00806CAD /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18EA658C2B70CDAE00806CAD /* AstronautView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		18EA658D2B70CDAE00806CAD /* Color-Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		18EA658E2B70CDAE00806CAD /* Mission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		18EA658F2B70CDAE00806CAD /* Astronaut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		18EA65902B70CDAE00806CAD /* MissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		18EA65912B70CDAE00806CAD /* NavigationLInkBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationLInkBasics.swift; sourceTree = "<group>"; };
+		18EA65922B70CDAE00806CAD /* CodableHierarchical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHierarchical.swift; sourceTree = "<group>"; };
+		18EA65932B70CDAE00806CAD /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		18EA65942B70CDAE00806CAD /* ScrollViewBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewBasics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +78,20 @@
 			isa = PBXGroup;
 			children = (
 				18EA65772B70CC7200806CAD /* Moonshoot_ios17App.swift */,
-				18EA65792B70CC7200806CAD /* ContentView.swift */,
+				18EA658B2B70CDAE00806CAD /* ContentView.swift */,
+				18EA658C2B70CDAE00806CAD /* AstronautView.swift */,
+				18EA65902B70CDAE00806CAD /* MissionView.swift */,
+				18EA658F2B70CDAE00806CAD /* Astronaut.swift */,
+				18EA658E2B70CDAE00806CAD /* Mission.swift */,
+				18EA65932B70CDAE00806CAD /* Bundle-Decodable.swift */,
+				18EA658D2B70CDAE00806CAD /* Color-Theme.swift */,
+				18EA65852B70CD2500806CAD /* astronauts.json */,
+				18EA65872B70CD2F00806CAD /* missions.json */,
+				18EA658A2B70CDAE00806CAD /* ResizingImages.swift */,
+				18EA65942B70CDAE00806CAD /* ScrollViewBasics.swift */,
+				18EA65912B70CDAE00806CAD /* NavigationLInkBasics.swift */,
+				18EA65922B70CDAE00806CAD /* CodableHierarchical.swift */,
+				18EA65892B70CDAE00806CAD /* ScrollableGrid.swift */,
 				18EA657B2B70CC7300806CAD /* Assets.xcassets */,
 				18EA657D2B70CC7300806CAD /* Preview Content */,
 			);
@@ -125,7 +164,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EA65862B70CD2500806CAD /* astronauts.json in Resources */,
 				18EA657F2B70CC7300806CAD /* Preview Assets.xcassets in Resources */,
+				18EA65882B70CD2F00806CAD /* missions.json in Resources */,
 				18EA657C2B70CC7300806CAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +178,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EA657A2B70CC7200806CAD /* ContentView.swift in Sources */,
+				18EA65952B70CDAE00806CAD /* ScrollableGrid.swift in Sources */,
+				18EA65992B70CDAE00806CAD /* Color-Theme.swift in Sources */,
+				18EA659D2B70CDAE00806CAD /* NavigationLInkBasics.swift in Sources */,
 				18EA65782B70CC7200806CAD /* Moonshoot_ios17App.swift in Sources */,
+				18EA65A02B70CDAE00806CAD /* ScrollViewBasics.swift in Sources */,
+				18EA659B2B70CDAE00806CAD /* Astronaut.swift in Sources */,
+				18EA65972B70CDAE00806CAD /* ContentView.swift in Sources */,
+				18EA659C2B70CDAE00806CAD /* MissionView.swift in Sources */,
+				18EA65962B70CDAE00806CAD /* ResizingImages.swift in Sources */,
+				18EA659E2B70CDAE00806CAD /* CodableHierarchical.swift in Sources */,
+				18EA659A2B70CDAE00806CAD /* Mission.swift in Sources */,
+				18EA65982B70CDAE00806CAD /* AstronautView.swift in Sources */,
+				18EA659F2B70CDAE00806CAD /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
