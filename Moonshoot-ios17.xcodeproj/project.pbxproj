@@ -20,7 +20,7 @@
 		18EA659A2B70CDAE00806CAD /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA658E2B70CDAE00806CAD /* Mission.swift */; };
 		18EA659B2B70CDAE00806CAD /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA658F2B70CDAE00806CAD /* Astronaut.swift */; };
 		18EA659C2B70CDAE00806CAD /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65902B70CDAE00806CAD /* MissionView.swift */; };
-		18EA659D2B70CDAE00806CAD /* NavigationLInkBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65912B70CDAE00806CAD /* NavigationLInkBasics.swift */; };
+		18EA659D2B70CDAE00806CAD /* NavigationLinkBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65912B70CDAE00806CAD /* NavigationLinkBasics.swift */; };
 		18EA659E2B70CDAE00806CAD /* CodableHierarchical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65922B70CDAE00806CAD /* CodableHierarchical.swift */; };
 		18EA659F2B70CDAE00806CAD /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65932B70CDAE00806CAD /* Bundle-Decodable.swift */; };
 		18EA65A02B70CDAE00806CAD /* ScrollViewBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA65942B70CDAE00806CAD /* ScrollViewBasics.swift */; };
@@ -41,7 +41,7 @@
 		18EA658E2B70CDAE00806CAD /* Mission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		18EA658F2B70CDAE00806CAD /* Astronaut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		18EA65902B70CDAE00806CAD /* MissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
-		18EA65912B70CDAE00806CAD /* NavigationLInkBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationLInkBasics.swift; sourceTree = "<group>"; };
+		18EA65912B70CDAE00806CAD /* NavigationLinkBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationLinkBasics.swift; sourceTree = "<group>"; };
 		18EA65922B70CDAE00806CAD /* CodableHierarchical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHierarchical.swift; sourceTree = "<group>"; };
 		18EA65932B70CDAE00806CAD /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		18EA65942B70CDAE00806CAD /* ScrollViewBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewBasics.swift; sourceTree = "<group>"; };
@@ -79,8 +79,8 @@
 			children = (
 				18EA65772B70CC7200806CAD /* Moonshoot_ios17App.swift */,
 				18EA658B2B70CDAE00806CAD /* ContentView.swift */,
-				18EA658C2B70CDAE00806CAD /* AstronautView.swift */,
 				18EA65902B70CDAE00806CAD /* MissionView.swift */,
+				18EA658C2B70CDAE00806CAD /* AstronautView.swift */,
 				18EA658F2B70CDAE00806CAD /* Astronaut.swift */,
 				18EA658E2B70CDAE00806CAD /* Mission.swift */,
 				18EA65932B70CDAE00806CAD /* Bundle-Decodable.swift */,
@@ -89,7 +89,7 @@
 				18EA65872B70CD2F00806CAD /* missions.json */,
 				18EA658A2B70CDAE00806CAD /* ResizingImages.swift */,
 				18EA65942B70CDAE00806CAD /* ScrollViewBasics.swift */,
-				18EA65912B70CDAE00806CAD /* NavigationLInkBasics.swift */,
+				18EA65912B70CDAE00806CAD /* NavigationLinkBasics.swift */,
 				18EA65922B70CDAE00806CAD /* CodableHierarchical.swift */,
 				18EA65892B70CDAE00806CAD /* ScrollableGrid.swift */,
 				18EA657B2B70CC7300806CAD /* Assets.xcassets */,
@@ -180,7 +180,7 @@
 			files = (
 				18EA65952B70CDAE00806CAD /* ScrollableGrid.swift in Sources */,
 				18EA65992B70CDAE00806CAD /* Color-Theme.swift in Sources */,
-				18EA659D2B70CDAE00806CAD /* NavigationLInkBasics.swift in Sources */,
+				18EA659D2B70CDAE00806CAD /* NavigationLinkBasics.swift in Sources */,
 				18EA65782B70CC7200806CAD /* Moonshoot_ios17App.swift in Sources */,
 				18EA65A02B70CDAE00806CAD /* ScrollViewBasics.swift in Sources */,
 				18EA659B2B70CDAE00806CAD /* Astronaut.swift in Sources */,
@@ -332,6 +332,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +362,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

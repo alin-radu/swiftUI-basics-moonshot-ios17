@@ -7,15 +7,6 @@
 
 import SwiftUI
 
-struct DividerBasic: View {
-    var body: some View {
-        Rectangle()
-            .frame(height: 2)
-            .foregroundColor(.lightBackground)
-            .padding(.vertical)
-    }
-}
-
 struct MissionView: View {
     struct CrewMember {
         let role: String
@@ -109,4 +100,13 @@ struct MissionView: View {
 
     return MissionView(mission: missions[0], astronauts: astronauts)
         .preferredColorScheme(/*@START_MENU_TOKEN@*/ .dark/*@END_MENU_TOKEN@*/)
+}
+
+struct DividerBasic: View {
+    var body: some View {
+        Rectangle()
+            .frame(height: 2)
+            .foregroundColor(.lightBackground)
+            .padding(.vertical)
+    }
 }
